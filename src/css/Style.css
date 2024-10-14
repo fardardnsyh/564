@@ -1,0 +1,309 @@
+Nav button{
+    width: 90px;
+    border-radius: 7px !important;
+    -webkit-border-radius: 7px !important;
+    -moz-border-radius: 7px !important;
+    -ms-border-radius: 7px !important;
+    -o-border-radius: 7px !important;
+    background-color: #FF8549 !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.Tombol{
+    width: 150px;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+    background-color: #FF8549 !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    cursor: pointer;
+}
+
+.navigasi {
+    height: 90px;
+    
+}
+
+.list{
+    font-weight: 500;
+}
+
+#nav{
+    color: #7350CC;
+}
+
+#nav:hover{
+    color: #563E94;
+}
+
+.list .active{
+    color: #563E94 !important;
+}
+
+.list:hover{
+    color: #563E94 !important;
+}
+
+.atas{
+    height: 100vh;
+}
+
+.kedua{
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.awal{
+    /* margin-top:10vh; */
+    margin-top: 25%;
+    padding-left: 50px;
+    color: #563E94;
+}
+
+.wel {
+    font-size: 5rem;
+    /* font-size: 70px; */
+}
+
+.raha {
+    font-size: 70px;
+    margin-top: -40px;
+}
+
+.rahasia{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #553E93;
+    font-weight: 500;
+}
+
+.gambar1{
+    position: absolute;
+    bottom: 0;
+    width: 480px;
+    z-index: -1;
+}
+
+.kotakTanya{
+    height: 100px;
+    width: 100%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    padding: 10px;
+}
+
+.pesan-kita{
+    border: none !important;
+    padding: 15px;
+    background-color: #fcfcfc !important;
+}
+
+.pesan-kita:hover{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card{
+    margin-bottom: 10px;
+}
+
+.tombolPesan{
+    width: 150px;
+    border-radius: 6px !important;
+    -webkit-border-radius: 6px !important;
+    -moz-border-radius: 6px !important;
+    -ms-border-radius: 6px !important;
+    -o-border-radius: 6px !important;
+    background-color: #2d73f7 !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    cursor: pointer;
+    float: right;
+}
+
+.pesanKita{
+    padding-bottom: 50px;
+}
+
+.bungkusPesan{
+    width: 100%;
+    height: 100%;
+    background-color: #fcfcfc;
+    padding: 10px;
+    
+}
+
+.bungkusPesanOrang{
+    
+    padding: 20px;
+    height: 90px;
+    background-color: white;
+}
+
+.bungkusPertama{
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media only screen and (max-width: 1999px) {
+    .wel {
+        font-size: 3rem;
+       
+    }
+    
+    .raha {
+        font-size: 3rem;
+        margin-top: -40px;
+    }
+  }
+
+  @media only screen and (min-height: 1024px) {
+      .gambar1{
+          display: none;
+      }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+
+    /* .gambar1{
+        display: none;
+    } */
+    .gambar1{
+        width: 300px;
+        vertical-align: middle;
+
+    }
+
+    .awal{
+        padding-left: 10%;
+
+    }
+
+    .wel {
+        font-size: 2rem;
+       
+    }
+    
+    .raha {
+        font-size: 2rem;
+        margin-top: -20px;
+    }
+
+    .rahasia{
+        font-size: 10px;
+        /* letter-spacing: 3px; */
+        color: #553E93;
+        font-weight: 5000;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .gambar1{
+        display: none;
+    }
+
+    .wel {
+        font-size: 2rem;
+       
+    }
+    
+    .raha {
+        font-size: 2rem;
+        margin-top: -20px;
+    }
+
+    .awal{
+        padding-left: 10%;
+
+    }
+
+    .Tombol{
+        width: 90px;
+        border-radius: 20px !important;
+        -webkit-border-radius: 10px !important;
+        -moz-border-radius: 20px !important;
+        -ms-border-radius: 20px !important;
+        -o-border-radius: 20px !important;
+        background-color: #FF8549 !important;
+        color: white !important;
+        text-decoration: none !important;
+        font-weight: 500 !important;
+        cursor: pointer;
+        font-size: 8px !important;
+    }
+  }
+
+
+  @media only screen and (max-width: 576px) {
+
+    .gambar1{
+        right: 10px;
+        width: 280px;
+    }
+
+    .wel {
+        font-size: 2rem;
+       
+    }
+    
+    .raha {
+        font-size: 2rem;
+        margin-top: -20px;
+    }
+
+    .awal{
+        padding-left: 10%;
+
+    }
+
+    .Tombol{
+        width: 90px;
+        border-radius: 20px !important;
+        -webkit-border-radius: 10px !important;
+        -moz-border-radius: 20px !important;
+        -ms-border-radius: 20px !important;
+        -o-border-radius: 20px !important;
+        background-color: #FF8549 !important;
+        color: white !important;
+        text-decoration: none !important;
+        font-weight: 500 !important;
+        cursor: pointer;
+        font-size: 8px !important;
+    }
+
+    .bungkusPesan{
+        background-color: #ffffff;
+    }
+    .bungkusPesanOrang{
+        background-color: #fcfcfc;
+    }
+  }
+
+  
